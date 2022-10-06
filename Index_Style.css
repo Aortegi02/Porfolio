@@ -1,0 +1,178 @@
+
+   @font-face {
+        font-family: 'Pacific';
+        src: url(/fonts/Pacifica\ Condensed\ Regular.otf);
+        font-weight: normal;
+        font-style: normal;
+    }
+   
+   @import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@200&display=swap'); 
+    :root{
+        --font-style : 'Nunito Sans', sans-serif;
+    }    
+
+    body{
+       font-family:  var(--font-style);
+       background-image: linear-gradient(to top, #1e3c72 0%, #1e3c72 1%, #2a5298 100%);
+       /*background-image: linear-gradient(to top, #30cfd0 0%, #330867 100%);*/
+       background-repeat: no-repeat;
+       padding-top: 250px;
+    }
+
+    header{
+        width: 100%;
+        height: 250px;
+        left:0;
+        top:0;
+        position: fixed;
+        background: url(/video/water-4.gif);
+        background-size: cover;
+        border-bottom: 5px solid #18181B;
+    }
+
+    .inicio{
+        width: 100%;
+        height: 100%;
+        padding-top:75px;
+        padding-bottom: 75px;
+    }
+
+    p.textoEspecial{
+        font-family:'Pacific';
+        text-align: center;
+        font-size:100px;
+    }
+
+    hr.style8 {
+        border-top: 1px dashed #000616;
+	    border-bottom: 1px dashed #2f2a4c;
+    }
+
+
+    a{
+        text-decoration: none;
+        color: #00FFFF;
+    }
+
+    .box{
+        padding: 15px;
+        margin-left: 100px;
+        margin: 50px;
+        width: 45%;
+        height: 600px;
+        background-color: #0f2858;
+        border-radius: 80px;
+        box-shadow: 0 4px 8px 0 #0037ff, 0 6px 20 px 0 rgba(0, 0, 0, 0.19); box-shadow: 0 4px 8px 0 #01155c, 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    }
+    
+    h3{
+        text-align: center;
+        font-size: 25px;
+        color:rgb(129, 165, 200);
+        text-shadow: black 0.1em 0.1em 0.2em;
+    }
+
+
+    div.nombre{
+        box-shadow: 0 4px 8 px 0 #00FFFF, 0 6px 20px 0 rgba(0, 0, 0, 0.19); box-shadow: 0 4px 8px 0 #00FFFF, 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+        margin-top: 25px;
+        text-align: center;
+        background-color: #2a529898;
+        border-radius: 25px;
+        border: 1.5px solid #099FFF;
+        margin-top: 1%;
+        margin-bottom: 1%;
+        margin-left: 35%;
+        margin-right: 35%;
+    }
+
+    .nombre{
+        word-break: break-all;
+        font-family:Helvetica;
+        font-size:  40px;
+        text-transform: uppercase;
+        text-align: center;  
+    }
+
+    .sombra{
+        color: white; 
+        text-shadow: black 0.1em 0.1em 0.2em;
+    }
+
+
+    
+    ul{
+        margin-top: 2%;
+        margin-bottom: 3%;
+        margin-left:25%;
+        margin-right: 25%;
+        width: 50%;
+        display:flex;
+        flex-direction: row;
+        list-style: none;
+        padding:25px 0;
+        border-radius: 25px;
+        border: 0.1px solid #099FFF;
+        background-color: #18181B;
+        box-shadow: 0 4px 8 px 0 #00FFFF, 0 6px 20 px 0 rgba(0, 0, 0, 0.19);
+    }
+
+    li{
+        margin: auto;
+        color: white;
+        font-size:  20px;
+        cursor: pointer;
+    }
+
+    li:after{
+        display: block;
+    }
+
+    li:hover:after{
+        transform:  scaleX(1);
+    }
+
+    .galeria {
+        height: calc( var(--h) + 3em);
+        width: var(--w);
+        margin-left: 15px;        
+        margin-top: 15px;
+        border: 1px solid #555;
+        position: relative;  
+        background-color:#000000
+      }
+      
+      .galeria img {
+        position: absolute;
+        top: 0;
+        left: 0;
+        opacity: 0;
+        transition: opacity 3s;
+      }
+      
+      .galeria input[type=radio] {
+        position: relative;
+        bottom: calc(-1 * var(--h) - 1.5em);
+        left: .5em;
+      }
+      
+      .galeria input[type=radio]:nth-of-type(1):checked ~ img:nth-of-type(1) {
+        opacity: 1;
+      }
+      
+      .galeria input[type=radio]:nth-of-type(2):checked ~ img:nth-of-type(2) {
+        opacity: 1;
+      }
+      
+      .galeria input[type=radio]:nth-of-type(3):checked ~ img:nth-of-type(3) {
+        opacity: 1;
+      }
+
+      footer{
+        width: 100%;
+        height: 150px;
+        bottom: 0;
+        left: 0;
+        text-align: left;
+    }
+
