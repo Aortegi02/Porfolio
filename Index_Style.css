@@ -39,16 +39,17 @@
         padding-bottom: 75px;   
     }
 
-    p.textoEspecial{
-        font-family:'Pacific';
-        text-align: center;
-        font-size:100px;
-    }
 
     p{
         font-size: 20px;
         text-align: left;
         margin-left: 5%;
+    }
+
+    p.textoEspecial{
+        font-family:'Pacific';
+        text-align: center;
+        font-size:100px;
     }
 
     video{
