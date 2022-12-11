@@ -13,7 +13,7 @@
 
     body{
        font-family:  var(--font-style);
-       background-image: linear-gradient(to top, #1e3c72 0%, #1e3c72 1%, #2a5298 100%);
+       background-image: linear-gradient(to top, #091f48 0%, #1e3c72 1%, #060c17 100%);
        /*background-image: linear-gradient(to top, #30cfd0 0%, #330867 100%);*/
        background-repeat: no-repeat;
        padding-top: 250px;
